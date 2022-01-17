@@ -209,8 +209,8 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).
-    Paticipaints must create accounts in [Protocols.io](https://www.protocols.io) and [Benchling](https://www.benchling.com),
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).<br>
+  Paticipaints must create accounts in <a href="https://www.protocols.io">Protocols.io</a> and <a href="https://www.benchling.com">Benchling</a>,
   {% endif %}
 </p>
 
@@ -487,10 +487,11 @@ to include the relevant installation instrucctions.
 
 {% endcomment %}
 
-<p> You need to create an account in two platforms:
-  * [Benchling](https://www.benchling.com)
-  * [Protocols.io](https://www.protocols.io)
-</p>
+<p> You need to create an account in two platforms: </p>
+<ul>
+  <li><a href="https://www.protocols.io">Protocols.io</a></li>
+  <li><a href="https://www.benchling.com">Benchling</a></li>
+</ul>
 
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}

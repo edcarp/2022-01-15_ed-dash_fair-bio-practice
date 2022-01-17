@@ -5,7 +5,7 @@ title: Ed-DaSH FAIR bio practice
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Edinburgh"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or ''
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "55.96327"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -117,7 +117,7 @@ Ed-DaSH is a **Da**ta **S**cience training programme for **H**ealth and Bioscien
 
 <h2 id="general">General Information</h2>
 
-<strong>Registration:</strong> [Online](https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-biological-practice)  
+<strong>Registration:</strong> [Online](https://www.epay.ed.ac.uk/conferences-and-events/college-of-medicine-and-veterinary-medicine/school-of-molecular-genetic-and-population-health-sciences/igmm/fair-in-biological-practice-2022)  
 The course is free but there is a 50 pounds holding deposit refunded after attending the workshop.
 
 {% comment %}
@@ -210,6 +210,7 @@ Modify the block below if there are any special requirements.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).
+    Paticipaints must create accounts in [Protocols.io](https://www.protocols.io) and [Benchling](https://www.benchling.com),
   {% endif %}
 </p>
 
@@ -485,6 +486,11 @@ If you do not use Zoom for your online workshop, edit the file
 to include the relevant installation instrucctions.
 
 {% endcomment %}
+
+<p> You need to create an account in two platforms:
+  * [Benchling](https://www.benchling.com)
+  * [Protocols.io](https://www.protocols.io)
+</p>
 
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
